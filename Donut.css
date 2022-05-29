@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+min-height: 150vh;
+color: #121113;
+background: linear-gradient(to bottom, #fcfdff,#2d2d2e);
+font-family:'Montserrat', sans-serif;
+}
+
+main
+{
+    background: #ffff;
+    width: 80vw;
+    height: 60vw;
+    max-width: 1200px;
+    max-height: 850px;
+    margin: 1.5rem auto;
+    box-shadow: 0 2px 15px hsla(0,0%,0%,0.2);
+    border-radius: 78px;
+}
+nav
+{
+    text-align: center ;
+    background: rgba(226, 250, 15, 0.015);
+    padding: 0.75rem 1rem;
+    position: relative;
+}
+
+nav h3
+{
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    font-size: 1.6rem;
+    color: #3400eebb;
+    
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+section h1
+{
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #121113;
+    max-width: 1000px;
+    max-height: 80px;
+    margin: 0.1rem auto;
+    box-shadow: 0 5px 15px rgba(18, 18, 19, 0.2);
+    border-radius: 780px;
+   
+}
+section h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0.5rem;
+    height: 1200px;
+    width: 1200px;
+  
+}
+section svg
+{
+    margin-top: 2.1rem;
+    width: 90;
+    height: auto;
+}
+
+
+.dropbtn {
+    background-color: #5f61e0de;
+    color: rgb(255, 241, 241);
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    align-items: left;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgba(150, 134, 240, 0.801);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #060706;}
+  

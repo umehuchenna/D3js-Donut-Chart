@@ -1,0 +1,36 @@
+[{
+        "name": "NH White",
+        "percentage": 64,
+        "value": 2408,
+        "color": "#A6A8F8"
+    },
+    {
+        "name": "NH Asian",
+        "percentage": 5,
+        "value": 187,
+        "color": "#F9BA00"
+    },
+    {
+       "name": "Hispanic",
+        "percentage": 16,
+        "value": 589, 
+        "color": "#0789F8"
+    },
+    {
+        "name": "NH American Indian/Alaskan Native",
+        "percentage": 0.30,
+        "value": 9,
+        "color": "#47D7A8"
+    },
+    {
+        "name": "NH Pacific Islander",
+        "percentage": 5,
+        "value": 177,
+        "color": "#3BCB60"
+    },
+      {
+        "name": "NH Black",
+        "percentage": 10,
+        "value": 387,
+        "color": "#FE8C00"
+    }]
